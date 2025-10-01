@@ -21,3 +21,11 @@
 body{
     background-color: mediumslateblue;
 }
+
+video{
+    width:1000px;
+    padding:15px;
+    margin: 15px;
+    background-color:black;
+    border:3px white solid;
+}
