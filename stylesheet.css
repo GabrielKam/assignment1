@@ -29,3 +29,20 @@ video{
     background-color:black;
     border:3px white solid;
 }
+
+.box{
+    height:120px;
+    width:150px;
+    float:left;
+    background-color: aqua;
+    padding:15px;
+    margin:10px;
+
+}
+
+.form{
+    height:20px;
+    width:200px;
+    float:left;
+    background-color: aquamarine;
+}
