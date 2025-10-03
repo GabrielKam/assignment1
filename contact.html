@@ -3,7 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>Gabriel Kam's Website</title>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="stylesheetdesktop.css" media="only screen and (min-width:960px)">
+        <link rel="stylesheet" type="text/css" href="stylesheettablet.css" media="only screen and (min-width:481px) and (max-width:960px)">
+        <link rel="stylesheet" type="text/css" href="stylesheetmobile.css" media="only screen and (min-width:960px) and (max-width:480)">
     </head>
     <body>
         <div id="wrapper">
@@ -31,7 +34,13 @@
                 </p>
                 <p>
                     <label for="comments">comments</label>
-                    <textarea name="comments" cols="100" rows="10" placeholder="Your comments here"></textarea>
+                    <textarea name="comments" cols="100" rows="10" placeholder="Your comments here" required></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Click to submit">
+                </p>
+                <p>
+                    <input type="reset" value="Click to reset">
                 </p>
             </form>
         </div>

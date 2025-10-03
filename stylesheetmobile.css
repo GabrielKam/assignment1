@@ -23,7 +23,7 @@ body{
 }
 
 video{
-    width:1000px;
+    width:75%;
     padding:15px;
     margin: 15px;
     background-color:black;
@@ -45,4 +45,18 @@ video{
     width:200px;
     float:left;
     background-color: aquamarine;
+}
+
+.footer{
+    height:80px;
+    width:200px;
+    background-color: black;
+}
+
+.h8{
+    font-size: small;
+}
+
+.clear{
+    clear:both
 }

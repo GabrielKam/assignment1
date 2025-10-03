@@ -1,0 +1,62 @@
+.navbar{
+    height:10px;
+    float:center;
+    padding:30px 10px;
+    font-size: 20px;
+    background-color: rgb(132, 208, 255);
+}
+
+.topnav a{
+    float:left;
+    color:white;
+    text-align:center;
+    padding: 30px 30px;
+    font-size: 30px;
+}
+
+#banner{
+    height:120px;
+}
+
+body{
+    background-color: mediumslateblue;
+}
+
+video{
+    width:75%;
+    padding:15px;
+    margin: 15px;
+    background-color:black;
+    border:3px white solid;
+}
+
+.box{
+    height:120px;
+    width:150px;
+    float:left;
+    background-color: aqua;
+    padding:15px;
+    margin:10px;
+
+}
+
+.form{
+    height:20px;
+    width:200px;
+    float:left;
+    background-color: aquamarine;
+}
+
+.footer{
+    height:80px;
+    width:200px;
+    background-color: black;
+}
+
+.h8{
+    font-size: small;
+}
+
+.clear{
+    clear:both
+}
