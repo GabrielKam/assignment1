@@ -6,3 +6,6 @@ viewports:
 desktop: minimum width of 960 px
 tablet: width between 461 and 960 px
 mobile: width under 460 px
+
+linear gradient used in all pages
+color scheme hex values: 0062eb 3400eb 0118eb 00aceb 8100eb 4959eb

@@ -1,3 +1,5 @@
+/*color scheme hex values: 0062eb 3400eb 0118eb 00aceb 8100eb 4959eb*/
+
 .navbar{
     height:10px;
     float:center;
@@ -19,7 +21,11 @@
 }
 
 body{
-    background-color: mediumslateblue;
+    background:#0062eb;
+    background: -moz-linear-gradient(top, #0062eb 0%, #8100eb 100%);
+    background: -webkit-linear-gradient(top, #0062eb 0%, #8100eb 100%);
+    background: -o-linear-gradient(top, #0062eb 0%, #8100eb 100%);
+    background: linear-gradient(to bottom, #0062eb 0%, #8100eb 100%);
 }
 
 video{
