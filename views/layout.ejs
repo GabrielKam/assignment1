@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><%= title %> | My Portfolio</title>
+
+    <!-- Local Bootstrap -->
+    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Local Font Awesome -->
+    <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css" />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+
+  <body>
+    <%- include('partials/header') %>
+
+    <main class="container py-4">
+      <%- body %>
+    </main>
+
+    <%- include('partials/footer') %>
+
+    <!-- Local Bootstrap JS -->
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/javascripts/main.js"></script>
+  </body>
+</html>
